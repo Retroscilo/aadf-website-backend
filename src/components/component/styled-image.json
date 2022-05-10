@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_component_styled_images",
+  "info": {
+    "displayName": "StyledImage",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Color": {
+      "type": "enumeration",
+      "enum": [
+        "noir",
+        "rouge"
+      ]
+    }
+  }
+}
