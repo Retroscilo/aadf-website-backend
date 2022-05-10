@@ -5,12 +5,14 @@
     "icon": "desktop",
     "description": ""
   },
-  "options": {},
+  "options": {
+    "populate": "*"
+  },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
     "background": {
