@@ -22,7 +22,8 @@
     "Content": {
       "type": "dynamiczone",
       "components": [
-        "section.hero"
+        "section.hero",
+        "element.styled-image"
       ]
     }
   }

@@ -2,19 +2,21 @@
   "collectionName": "components_component_styled_images",
   "info": {
     "displayName": "StyledImage",
-    "icon": "images"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Color": {
       "type": "enumeration",
