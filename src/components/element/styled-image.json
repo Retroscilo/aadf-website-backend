@@ -24,6 +24,16 @@
         "noir",
         "rouge"
       ]
+    },
+    "buttonLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button-link"
+    },
+    "customImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.custom-image"
     }
   }
 }
