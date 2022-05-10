@@ -24,6 +24,11 @@
         "noir",
         "rouge"
       ]
+    },
+    "buttonLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.button-link"
     }
   }
 }

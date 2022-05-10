@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_element_button_links",
+  "info": {
+    "displayName": "buttonLink",
+    "icon": "certificate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "rouge",
+        "jaune"
+      ],
+      "default": "rouge",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "outlined",
+        "inverted"
+      ],
+      "default": "full",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
