@@ -23,7 +23,8 @@
       "type": "dynamiczone",
       "components": [
         "section.hero",
-        "element.styled-image"
+        "element.styled-image",
+        "element.navbar"
       ]
     }
   }
