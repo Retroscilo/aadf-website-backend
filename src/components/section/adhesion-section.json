@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_adhesion_sections",
+  "info": {
+    "displayName": "AdhesionSection",
+    "icon": "sign-out-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "buttonLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.button-link"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.custom-image"
+    }
+  }
+}

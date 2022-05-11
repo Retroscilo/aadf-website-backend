@@ -2,7 +2,8 @@
   "collectionName": "components_section_events",
   "info": {
     "displayName": "events",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,6 +19,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::event.event"
+    },
+    "arrowLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.arrow-link"
     }
   }
 }
