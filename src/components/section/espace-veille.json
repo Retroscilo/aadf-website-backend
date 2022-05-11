@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_espace_veilles",
+  "info": {
+    "displayName": "EspaceVeille",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "veilles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::veille.veille"
+    },
+    "arrowLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.arrow-link"
+    }
+  }
+}

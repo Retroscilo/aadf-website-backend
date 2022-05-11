@@ -23,11 +23,12 @@
       "type": "dynamiczone",
       "components": [
         "element.styled-image",
+        "section.actions",
         "section.adhesion-section",
         "section.events",
         "section.hero",
         "section.mission",
-        "section.actions"
+        "section.espace-veille"
       ]
     }
   }
