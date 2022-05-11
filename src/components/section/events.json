@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_events",
+  "info": {
+    "displayName": "events",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "nextEvent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event.event"
+    },
+    "title": {
+      "type": "string"
+    },
+    "passedEvents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event"
+    }
+  }
+}
