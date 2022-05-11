@@ -1,18 +1,16 @@
 {
   "kind": "singleType",
-  "collectionName": "homepages",
+  "collectionName": "evenements",
   "info": {
-    "singularName": "homepage",
-    "pluralName": "homepages",
-    "displayName": "Homepage",
-    "name": "homepage",
+    "singularName": "evenement",
+    "pluralName": "evenements",
+    "displayName": "Évènements",
     "description": ""
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
     "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "seo": {
       "type": "component",
@@ -23,8 +21,8 @@
       "type": "dynamiczone",
       "components": [
         "element.styled-image",
-        "section.hero",
-        "section.events"
+        "section.events",
+        "section.hero"
       ]
     }
   }
