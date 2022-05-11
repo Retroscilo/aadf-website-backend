@@ -22,9 +22,9 @@
     "content": {
       "type": "dynamiczone",
       "components": [
-        "element.styled-image",
+        "section.events",
         "section.hero",
-        "section.events"
+        "section.logo-wrapper"
       ]
     }
   }

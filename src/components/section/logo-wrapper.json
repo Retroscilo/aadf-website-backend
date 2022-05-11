@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_logo_wrappers",
+  "info": {
+    "displayName": "logoWrapper",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.logo"
+    }
+  }
+}
