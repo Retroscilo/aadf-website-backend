@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_actions",
+  "info": {
+    "displayName": "Actions",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.action"
+    }
+  }
+}
