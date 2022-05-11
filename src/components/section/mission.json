@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_missions",
+  "info": {
+    "displayName": "Mission",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "missions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.mission"
+    }
+  }
+}

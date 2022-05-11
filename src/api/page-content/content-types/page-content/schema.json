@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page-content",
     "pluralName": "page-contents",
-    "displayName": "pageContent"
+    "displayName": "pageContent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,7 +16,8 @@
       "type": "dynamiczone",
       "components": [
         "section.hero",
-        "element.styled-image"
+        "element.styled-image",
+        "section.mission"
       ]
     }
   }
