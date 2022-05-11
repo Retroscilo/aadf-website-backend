@@ -39,6 +39,11 @@
       "type": "component",
       "repeatable": false,
       "component": "element.arrow-link"
+    },
+    "pastEvents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.past-event"
     }
   }
 }
