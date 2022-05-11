@@ -24,7 +24,9 @@
       "components": [
         "element.styled-image",
         "section.hero",
-        "section.events"
+        "section.events",
+        "element.styled-image",
+        "element.navbar"
       ]
     }
   }

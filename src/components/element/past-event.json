@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_section_past_events",
+  "info": {
+    "displayName": "PastEvent",
+    "icon": "calendar-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "arrowLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.arrow-link"
+    }
+  }
+}
