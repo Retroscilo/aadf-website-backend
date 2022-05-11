@@ -21,13 +21,7 @@
     },
     "content": {
       "type": "dynamiczone",
-      "components": [
-        "element.styled-image",
-        "section.hero",
-        "section.events",
-        "element.styled-image",
-        "element.navbar"
-      ]
+      "components": ["element.styled-image", "section.hero", "section.events"]
     }
   }
 }
