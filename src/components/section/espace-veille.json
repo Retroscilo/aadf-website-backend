@@ -2,7 +2,8 @@
   "collectionName": "components_section_espace_veilles",
   "info": {
     "displayName": "EspaceVeille",
-    "icon": "eject"
+    "icon": "book-open",
+    "description": ""
   },
   "options": {},
   "attributes": {
