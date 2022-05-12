@@ -38,6 +38,13 @@
       "type": "component",
       "repeatable": false,
       "component": "element.navbar"
+    },
+    "Footer": {
+      "type": "dynamiczone",
+      "components": [
+        "element.footer-list",
+        "element.social-media-column"
+      ]
     }
   }
 }
