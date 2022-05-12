@@ -23,7 +23,7 @@
         "element.styled-image",
         "section.events",
         "section.hero",
-        "section.section"
+        "element.grid-content"
       ]
     }
   }
