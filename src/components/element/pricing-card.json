@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_element_pricing_cards",
+  "info": {
+    "displayName": "pricingCard",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "string"
+    },
+    "formulaTitle": {
+      "type": "string"
+    },
+    "formulaDescription": {
+      "type": "string"
+    }
+  }
+}

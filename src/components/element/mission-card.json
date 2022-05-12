@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_element_mission_cards",
+  "info": {
+    "displayName": "missionCard",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.custom-image"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "missionTitle": {
+      "type": "string"
+    }
+  }
+}

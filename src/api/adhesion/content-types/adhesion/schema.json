@@ -20,9 +20,9 @@
     "content": {
       "type": "dynamiczone",
       "components": [
-        "element.styled-image",
-        "section.events",
-        "section.hero"
+        "section.hero",
+        "section.text-section",
+        "section.pricing-section"
       ]
     }
   }

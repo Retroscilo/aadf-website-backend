@@ -20,9 +20,10 @@
     "content": {
       "type": "dynamiczone",
       "components": [
-        "section.events",
         "section.hero",
-        "element.styled-image"
+        "section.single-image-section",
+        "section.text-section",
+        "element.mission-card"
       ]
     }
   }

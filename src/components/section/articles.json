@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_articles",
+  "info": {
+    "displayName": "Articles",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "highlight": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "populars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "displayed": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_pricing_sections",
+  "info": {
+    "displayName": "pricingSection",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.pricing-card"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_single_image_sections",
+  "info": {
+    "displayName": "singleImageSection",
+    "icon": "file-contract",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.custom-image"
+    },
+    "imageOnLeft": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
