@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_element_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "rouge",
+        "orange"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "outlined",
+        "inverted"
+      ]
+    },
+    "newTab": {
+      "type": "boolean"
+    }
+  }
+}
