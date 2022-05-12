@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_element_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "outlined",
+        "inverted"
+      ]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "rouge",
+        "jaune"
+      ]
+    }
+  }
+}

@@ -38,6 +38,15 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "form": {
+      "type": "enumeration",
+      "enum": [
+        "rounded",
+        "squared"
+      ],
+      "default": "rounded",
+      "required": true
     }
   }
 }
