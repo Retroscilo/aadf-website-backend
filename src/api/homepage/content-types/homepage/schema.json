@@ -28,7 +28,8 @@
         "section.events",
         "section.hero",
         "section.mission",
-        "section.espace-veille"
+        "section.espace-veille",
+        "section.presentation-section"
       ]
     }
   }

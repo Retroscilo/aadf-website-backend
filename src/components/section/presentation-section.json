@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_section_presentation_sections",
+  "info": {
+    "displayName": "presentationSection",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "imageFirst": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "arrowLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.arrow-link"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "element.custom-image"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
