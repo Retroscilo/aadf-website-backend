@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_element_social_medias",
+  "info": {
+    "displayName": "SocialMedia",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

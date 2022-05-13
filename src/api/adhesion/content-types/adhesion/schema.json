@@ -24,6 +24,13 @@
         "section.events",
         "section.hero"
       ]
+    },
+    "logoSite": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

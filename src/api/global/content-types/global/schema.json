@@ -33,6 +33,24 @@
         "files",
         "videos"
       ]
+    },
+    "Footer": {
+      "type": "dynamiczone",
+      "components": [
+        "element.footer-list",
+        "element.social-media-column"
+      ],
+      "min": 1
+    },
+    "logoSite": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

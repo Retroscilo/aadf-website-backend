@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_element_footer_lists",
+  "info": {
+    "displayName": "FooterList",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "FooterLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.footer-link"
+    }
+  }
+}
