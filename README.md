@@ -55,3 +55,7 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+## Documentation pour les débutant (interface d'administration)
+
+https://lofty-jumper-50f.notion.site/DOCUMENTATION-AADF-CMS-769628d272174f158a2d8162d540ad0a
